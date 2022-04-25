@@ -2,9 +2,9 @@
     margin: 0 0 1.9em;
     padding: 0;
 
-    @media (min-width: 768px) {
-        margin-top: 3em;
-    }
+@include mq(tablet) {
+    margin-top: 3em;
+  }
 }
 
 .vid__player {
